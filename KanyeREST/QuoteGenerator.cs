@@ -16,7 +16,7 @@ namespace KanyeREST
 
             var kanyeQuote = JObject.Parse(kanyeResponse).GetValue("quote").ToString(); //parsing JSON OBJECT from response and turning it into a string 
 
-            Console.WriteLine($"Kanye: \"{kanyeQuote}\""); //quote line, prints to console
+            Console.WriteLine($"Kanye: \"{kanyeQuote}\""); //quote line, prints to console. \" "\ <- quotes
         }
 
         public static void RonQuote()
